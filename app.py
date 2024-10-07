@@ -13,7 +13,7 @@ with open ('one_hot_encoder_geo.pkl','rb') as file:
     one_hot_Encoder_geo=pickle.load(file)
 with open('scaler_file.pkl','rb') as file:
     scaler=pickle.load(file)
-
+    
 st.title('Customer churn prediciton')
 
 # user input:
